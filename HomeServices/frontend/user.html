@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>User Module</title><link rel="stylesheet" href="style.css"></head>
+<body onload="checkUser()"><div class="header"><div class="logo">Home<span>Services</span></div><div class="menu"><span id="welcome"></span> | <button onclick="logout()">Logout</button></div></div>
+<div class="title">USER MODULE</div><h2 class="center">Choose a service</h2><div class="services">
+<div class="card"><div class="emoji">🔧</div><h3>Plumbing</h3><p>From ₹499</p><button onclick="book('Plumbing')">Book Service</button></div>
+<div class="card"><div class="emoji">💡</div><h3>Electrical</h3><p>From ₹599</p><button onclick="book('Electrical')">Book Service</button></div>
+<div class="card"><div class="emoji">🧹</div><h3>Cleaning</h3><p>From ₹799</p><button onclick="book('Cleaning')">Book Service</button></div>
+</div><div class="section"><h2>My Bookings</h2><div id="mybookings"></div></div><script src="script.js"></script></body></html>

@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{background:#f5f5f5;color:#263238}
+.header{
+    background:#0D47A1;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    color:white;
+}
+.logo{font-size:28px;font-weight:bold;color:white}
+.logo span{color:#FFEB3B}
+.menu{font-size:18px;font-weight:bold}
+.menu a{color:white;text-decoration:none;margin:0 8px}
+.menu a:hover{text-decoration:underline}
+.banner{
+    background:#E3F2FD;
+    text-align:center;
+    padding:75px 20px;
+}
+.banner h1{font-size:42px;color:#0D47A1;margin-bottom:18px}
+.banner p{font-size:20px;margin-bottom:25px}
+.button,button{
+    display:inline-block;background:#0D47A1;color:white;border:none;
+    padding:12px 22px;text-decoration:none;font-size:17px;cursor:pointer;border-radius:5px
+}
+button:hover,.button:hover{background:#1976D2}
+.title{background:#1565C0;color:white;text-align:center;padding:20px;font-size:28px;font-weight:bold}
+.services{display:flex;justify-content:space-evenly;flex-wrap:wrap;gap:25px;padding:35px}
+.card{width:260px;background:white;border-radius:10px;text-align:center;box-shadow:0 0 10px #bbb;padding:25px}
+.emoji{font-size:45px;margin-bottom:15px}
+.card h3{font-size:23px;margin-bottom:12px}
+.card p{margin-bottom:15px;color:#555}
+.card b{display:block;margin-bottom:15px;color:#0D47A1}
+.footer{background:#263238;color:white;text-align:center;padding:25px;margin-top:25px}
+.form-area{display:flex;justify-content:center;align-items:center;min-height:85vh;padding:25px}
+.form-box{width:420px;background:white;padding:30px;border-radius:10px;box-shadow:0 0 12px #ccc}
+.form-box h1{text-align:center;color:#0D47A1;margin-bottom:25px}
+.form-box label{display:block;margin:14px 0 6px;font-weight:bold}
+.form-box input{width:100%;padding:11px;border:1px solid #aaa;border-radius:5px;font-size:16px}
+.form-box .button{width:100%;margin-top:20px}
+.form-box p{margin-top:15px}
+.demo{background:#E3F2FD;padding:12px;margin-top:18px;line-height:1.6}
+.center{text-align:center;margin-top:25px}
+.section{padding:30px 6%}
+.section h2{margin:20px 0}
+.stats{display:flex;gap:20px;flex-wrap:wrap}
+.stat{background:#E3F2FD;padding:20px;min-width:170px;border-radius:8px}
+.booking{background:white;padding:16px;margin:12px 0;border:1px solid #ddd;border-radius:8px;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
+.booking p{margin:7px 0;color:#555}
+@media(max-width:650px){.header{padding:18px;flex-direction:column;gap:15px}.banner h1{font-size:32px}.services{padding:20px}.form-box{width:100%}}
